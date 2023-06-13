@@ -1,0 +1,11 @@
+.wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  width: 600px;
+  padding: 20px;
+  border: 2px solid #818181;
+  border-radius: 12px;
+}
