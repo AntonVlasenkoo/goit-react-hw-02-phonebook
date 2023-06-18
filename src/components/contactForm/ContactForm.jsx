@@ -16,7 +16,7 @@ export class ContactForm extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    // this.props.onSubmit(this.state);
+
     const isContactExists = this.props.addContact({
       id: nanoid(6),
       ...this.state,
@@ -69,6 +69,6 @@ export class ContactForm extends Component {
   }
 }
 
-ContactsForm.propTypes = {
+ContactForm.propTypes = {
   addContact: PropTypes.func.isRequired,
-}.isRequired;
+};
